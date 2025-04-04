@@ -9,6 +9,6 @@
 		"build:default": "wp-scripts build",
 		"build:with-entrypoints": "wp-scripts build src/custom.js src/index.js --output-path=build-with-entrypoints",
 		"build:src-custom": "wp-scripts build --source-path=src-custom --output-path=build-src-custom",
-		"build:with-webpack-config": "wp-scripts build --webpack-config=webpack-custom.config.js --output-path=build-webpack-config"
+		"build:with-webpack-config": "wp-scripts build --config=webpack-sample.config.js --output-path=build-with-webpack-config"
 	}
 }
