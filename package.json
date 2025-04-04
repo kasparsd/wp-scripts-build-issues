@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"devDependencies": {
+		"@wordpress/scripts": "^30.14.1"
+	},
+	"scripts": {
+		"build": "wp-scripts build",
+		"build-with-entrypoints": "wp-scripts build src/custom.js src/index.js --output-path=build-with-entrypoints",
+		"build-src-custom": "wp-scripts build --source-path=src-custom --output-path=build-src-custom",
+		"build-src-custom-with-entrypoints": "wp-scripts build --source-path=src-custom index.js custom.js --output-path=build-src-custom-with-entrypoints"
+	}
+}

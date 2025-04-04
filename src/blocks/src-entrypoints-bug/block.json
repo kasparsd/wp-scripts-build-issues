@@ -1,0 +1,5 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"name": "wp-scripts/src-entrypoints-bug",
+	"editorScript": "file:./index.js"
+}
