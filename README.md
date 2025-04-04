@@ -45,3 +45,21 @@ Run the following commands to replicate the `./build*` directories:
 
 1. Run `npm install` to setup dependencies.
 2. Run `npm run build` to build the samples.
+
+
+## Alternative Approach
+
+Use a custom [`webpack.config.js`](webpack-sample.config.js) to specify all custom entrypoints which builds both the blocks and any other JS files as needed:
+
+    npx wp-scripts build --config=webpack-sample.config.js --output-path=build-with-webpack-config
+
+    build-with-webpack-config
+    ├── blocks
+    │   └── src-entrypoints-bug
+    │       ├── block.json
+    │       ├── index.asset.php
+    │       └── index.js
+    ├── custom.asset.php
+    ├── custom.js
+    ├── index.asset.php
+    └── index.js    
