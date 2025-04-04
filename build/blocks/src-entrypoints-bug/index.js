@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=window.wp.blocks,s=window.wp.blockEditor,e=window.ReactJSXRuntime,i=JSON.parse('{"UU":"wp-scripts/src-entrypoints-bug"}');(0,t.registerBlockType)(i.UU,{edit:function({attributes:t,setAttributes:i}){const r=(0,s.useBlockProps)();return(0,e.jsx)("div",{...r,children:(0,e.jsx)("h1",{children:"src/entrypoint-bug"})})}})})();
